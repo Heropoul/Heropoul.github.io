@@ -1,0 +1,64 @@
+/* Estilo general del cuerpo del sitio */
+body {
+    background-color: #272727; /* Fondo oscuro */
+    color: #ffffff; /* Texto en blanco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #512DA8; /* Morado oscuro */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Estilo para el menú de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Estilo para las secciones principales */
+main {
+    padding: 20px;
+}
+
+/* Estilo para los encabezados de sección */
+h2 {
+    color: #512DA8; /* Morado oscuro */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #512DA8; /* Morado oscuro */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #512DA8; /* Morado oscuro */
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
